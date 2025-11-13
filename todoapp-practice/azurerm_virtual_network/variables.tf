@@ -1,11 +1,12 @@
 variable "azurerm_virtual_vnet" {
   type = string
 }
-variable "azurerm_virtual_vnet_location" {
+variable "location" {
   type = string
 }
-variable "azurerm_virtual_vnet_bhargav-rg" {
+variable "resource_group_name" {
   type = string
 }
 variable "azurerm_virtual_vnet_address_space" {
+  type = list(string)
 }
